@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fascinate&family=Fascinate+Inline&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+
+    background-image: url(Assets/bg-1-01-01.png);
+    background-size: 1760px;
+    background-repeat: no-repeat;
+    
+} 
+
+/* #result-head{
+    margin-left: 150px;
+    height: 100px;
+    width: 1150px;
+} */
+
+.phrase-head{
+    margin-top: 130px;
+
+    text-align: center;
+    letter-spacing: 13px;
+    font-size: 400%;
+    color: #fec701;
+    text-shadow: -3px 3px 0px #fec701;
+    position: relative;
+    left: 3px;
+    color: #282828;
+
+}
+
+.score-text{
+    
+    margin-top: 60px;
+    /* margin-left: 600px; */
+    text-align: center;
+    color: #282828;
+}
+
+.score{
+    /* margin-left: 600px; */
+    margin-top: -15px;
+    font-size: 120px;
+    text-align: center;
+    color: #fec701;
+    -webkit-text-stroke: 1px  #282828;
+}
+
+.name-text{
+    margin-top: -15px;
+    text-align: center;
+    color: #282828;
+}
+
+button{
+
+    height: 90px;
+    width: 340px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 17px;
+    margin-left: 38vw;
+    font-size: 30px;
+    border: 2px solid #282828;
+    background-color: transparent;
+    font-size: 35px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    margin-bottom: 17px;
+    border: none;
+    color: white;
+    background-color: #282828;
+}
+
+
+@media screen and (max-width: 600px){
+
+    button{
+        margin-left: 20vw;
+
+    }
+
+}

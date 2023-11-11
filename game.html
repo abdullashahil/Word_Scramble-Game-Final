@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play the Game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="head">WORD SCRAMBLE</div>
+      <div class="box">
+        <div class="score-time">
+            <div class="score-box">Score: <span></span></div>
+        <div class="time-box"><span></span></div>
+    </div>
+        <div class="word-box">
+          <p id="word"></p>
+        </div>
+      
+
+
+        <audio src="2d game OST - Background Music.mp3"></audio>
+        <div id="hint">
+          Hint: <span>The place where books are there</span>
+        </div>
+        <input
+          type="text"
+          class="word-input"
+          placeholder="Enter in correct order"
+          required
+        />
+        <br>
+        <div class="buttons">
+          <button class="reset-button">
+            RESET
+          </button>
+          <button class="check-button">
+            CHECK WORD
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

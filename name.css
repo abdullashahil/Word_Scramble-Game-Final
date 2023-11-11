@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fascinate&family=Fascinate+Inline&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(Assets/bg-1-01-01.png);
+    background-size: 1760px;
+    background-repeat: no-repeat;
+}
+
+
+.head {
+    border: 1px solid black;
+    background-color: #fec701;
+    color: #282828;
+    width: 380px;
+    margin-top: 250px;
+    margin-left: 540px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+    font-weight: bold;
+}
+
+.box {
+    margin-top: 5px;
+    margin-left: 540px;
+    /* border: 1px solid black; */
+    width: 380px;
+    height: 300px;
+}
+
+input {
+    padding-left: 20px;
+    font-size: 24px;
+    width: 360px;
+    height: 80px;
+    border: 1px solid #282828;
+    margin-bottom: 5px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: rgb(218, 218, 218);
+
+
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 188px;
+}
+
+button:hover {
+    height: 50px;
+    width: 188px;
+}
+
+.buttons {
+    width: 382px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-button {
+    color: white;
+    background: #282828;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.play-button {
+    color: #282828;
+    background-color: #fec701;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.cancel-button:hover {
+    cursor: pointer;
+    color: #282828;
+    border: 1px solid #282828;
+    background: white;
+}
+
+.play-button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #282828;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .head,
+    .box {
+        margin-left: 18%;
+
+    }
+
+}
